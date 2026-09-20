@@ -1,0 +1,36 @@
+{
+  "name": "ai-bot-online",
+  "version": "2.0.0",
+  "description": "Modular Autonomous Minecraft AI Bot",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npx ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "watch": "tsc --watch",
+    "legacy": "node index.js"
+  },
+  "keywords": [
+    "minecraft",
+    "mineflayer",
+    "ai",
+    "autonomous"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "groq-sdk": "^0.37.0",
+    "minecraft-data": "^3.105.0",
+    "minecraft-protocol": "^1.64.0",
+    "mineflayer": "^4.35.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "vec3": "^0.1.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

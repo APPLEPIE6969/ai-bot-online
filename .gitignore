@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+*.txt
+
+# Build output
+dist/
+
+# Environment/credentials
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files
+data/*.json
+data/*.json.bak
+auth_cache/
+config/
+
+# Debug files
+debug_*.log
+crash.log
+error.log
+
+# Test/coverage
+coverage/
+.nyc_output/
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
